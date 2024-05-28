@@ -5,22 +5,22 @@
 
 Aktor dan Use Case
 ## 1.	Aktor
-•	Staff: Pengguna yang bekerja di daycare dan memiliki tanggung jawab dalam proses registrasi, pencatatan pembayaran, pencatatan kehadiran, dan pembuatan laporan.
-•	Pengasuh: Pengguna yang bertanggung jawab atas pengasuhan anak di daycare dan terlibat dalam pencatatan kehadiran anak serta pembuatan laporan harian.
-•	Orang Tua: Pengguna yang mendaftarkan anaknya ke daycare, melakukan pembayaran, serta menerima laporan tentang aktivitas dan kehadiran anak mereka.
+### •	Staff: Pengguna yang bekerja di daycare dan memiliki tanggung jawab dalam proses registrasi, pencatatan pembayaran, pencatatan kehadiran, dan pembuatan laporan.
+### •	Pengasuh: Pengguna yang bertanggung jawab atas pengasuhan anak di daycare dan terlibat dalam pencatatan kehadiran anak serta pembuatan laporan harian.
+### •	Orang Tua: Pengguna yang mendaftarkan anaknya ke daycare, melakukan pembayaran, serta menerima laporan tentang aktivitas dan kehadiran anak mereka.
 ## 2.	Use Case
-•	Registrasi
-•	Deskripsi: Proses ini dilakukan oleh staff untuk mendaftarkan anak-anak baru ke dalam sistem daycare.
-•	Aktor yang terlibat: Staff, Orang Tua
-•	Pembayaran
-•	Deskripsi: Proses ini mencakup pencatatan dan pemrosesan pembayaran yang dilakukan oleh orang tua untuk layanan daycare.
-•	Aktor yang terlibat: Staff, Orang Tua
-•	Kehadiran
-•	Deskripsi: Pencatatan kehadiran anak-anak di daycare. Kehadiran ini dapat dicatat oleh pengasuh dan staff.
-•	Aktor yang terlibat: Staff, Pengasuh, Orang Tua
-•	Laporan
-•	Deskripsi: Pembuatan laporan harian atau periodik tentang aktivitas dan kehadiran anak di daycare yang dibuat oleh pengasuh dan dapat diakses oleh orang tua.
-•	Aktor yang terlibat: Staff, Pengasuh, Orang Tua
+### •	Registrasi
+### •	Deskripsi: Proses ini dilakukan oleh staff untuk mendaftarkan anak-anak baru ke dalam sistem daycare.
+### •	Aktor yang terlibat: Staff, Orang Tua
+### •	Pembayaran
+### •	Deskripsi: Proses ini mencakup pencatatan dan pemrosesan pembayaran yang dilakukan oleh orang tua untuk layanan daycare.
+### •	Aktor yang terlibat: Staff, Orang Tua
+### •	Kehadiran
+### •	Deskripsi: Pencatatan kehadiran anak-anak di daycare. Kehadiran ini dapat dicatat oleh pengasuh dan staff.
+### •	Aktor yang terlibat: Staff, Pengasuh, Orang Tua
+### •	Laporan
+### •	Deskripsi: Pembuatan laporan harian atau periodik tentang aktivitas dan kehadiran anak di daycare yang dibuat oleh pengasuh dan dapat diakses oleh orang tua.
+### •	Aktor yang terlibat: Staff, Pengasuh, Orang Tua
 ## Interaksi antara Aktor dan Use Case
 •	Staff
 •	Berinteraksi dengan use case Registrasi untuk mendaftarkan anak-anak baru.
