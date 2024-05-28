@@ -50,14 +50,14 @@ Aktor dan Use Case
 Kelas Staff
 
 Atribut:
-id_staff : int - Identifikasi unik untuk setiap staff.
-nama : string - Nama staff.
-No_Telp : string - Nomor telepon staff.
-Metode:
-mencatatKehadiranPengasuh() - Metode untuk mencatat kehadiran pengasuh.
-mencatatKehadiranStaff() - Metode untuk mencatat kehadiran staff.
-memprosesPembayaran() - Metode untuk memproses pembayaran.
-Kelas Orang_Tua
+### id_staff : int - Identifikasi unik untuk setiap staff.
+### nama : string - Nama staff.
+### No_Telp : string - Nomor telepon staff.
+### Metode:
+### mencatatKehadiranPengasuh() - Metode untuk mencatat kehadiran pengasuh.
+### mencatatKehadiranStaff() - Metode untuk mencatat kehadiran staff.
+### memprosesPembayaran() - Metode untuk memproses pembayaran.
+### Kelas Orang_Tua
 
 Atribut:
 id_orangtua : int - Identifikasi unik untuk setiap orang tua.
