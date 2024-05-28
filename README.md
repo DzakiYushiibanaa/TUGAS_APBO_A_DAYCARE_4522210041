@@ -47,8 +47,8 @@ Aktor dan Use Case
 # CLASS DIAGRAM
 ![class diagram (daycare)](https://github.com/DzakiYushiibanaa/TUGAS_APBO_A_DAYCARE_4522210041/assets/145998330/59585c27-eaca-4ec3-8b85-9a0cc947f511)
 ## Penjelasan Kelas dan Hubungannya
-Kelas Staff
 
+## Kelas Staff
 Atribut:
 ### id_staff : int - Identifikasi unik untuk setiap staff.
 ### nama : string - Nama staff.
@@ -57,93 +57,93 @@ Atribut:
 ### mencatatKehadiranPengasuh() - Metode untuk mencatat kehadiran pengasuh.
 ### mencatatKehadiranStaff() - Metode untuk mencatat kehadiran staff.
 ### memprosesPembayaran() - Metode untuk memproses pembayaran.
-### Kelas Orang_Tua
 
+## Kelas Orang_Tua
 Atribut:
-id_orangtua : int - Identifikasi unik untuk setiap orang tua.
-nama : string - Nama orang tua.
-No_Telp : string - Nomor telepon orang tua.
-Email : string - Email orang tua.
-nama_jalan : string - Nama jalan tempat tinggal orang tua.
-kota : string - Kota tempat tinggal.
-No_Rumah : string - Nomor rumah.
-kecamatan : string - Kecamatan tempat tinggal.
-provinsi : string - Provinsi tempat tinggal.
-kelurahan : string - Kelurahan tempat tinggal.
-Metode:
-mendapatkanLaporan() - Metode untuk mendapatkan laporan.
-Kelas Anak
+### id_orangtua : int - Identifikasi unik untuk setiap orang tua.
+### nama : string - Nama orang tua.
+### No_Telp : string - Nomor telepon orang tua.
+### Email : string - Email orang tua.
+### nama_jalan : string - Nama jalan tempat tinggal orang tua.
+### kota : string - Kota tempat tinggal.
+### No_Rumah : string - Nomor rumah.
+### kecamatan : string - Kecamatan tempat tinggal.
+### provinsi : string - Provinsi tempat tinggal.
+### kelurahan : string - Kelurahan tempat tinggal.
+### Metode:
+### mendapatkanLaporan() - Metode untuk mendapatkan laporan.
 
-Atribut:
-id_anak : int - Identifikasi unik untuk setiap anak.
-id_orangtua : int - Identifikasi orang tua dari anak tersebut.
-nama : string - Nama anak.
-jenis_kelamin : string - Jenis kelamin anak.
-tgl_lahir : date - Tanggal lahir anak.
-Tempat_Lahir : string - Tempat lahir anak.
-umur : int - Umur anak.
-Kelas Pengasuh
+## Kelas Anak
+Atr ibut:
+### id_anak : int - Identifikasi unik untuk setiap anak.
+### id_orangtua : int - Identifikasi orang tua dari anak tersebut.
+### nama : string - Nama anak.
+### jenis_kelamin : string - Jenis kelamin anak.
+### tgl_lahir : date - Tanggal lahir anak.
+### Tempat_Lahir : string - Tempat lahir anak.
+### umur : int - Umur anak.
 
+## Kelas Pengasuh
 Atribut:
-id_pengasuh : int - Identifikasi unik untuk setiap pengasuh.
-nama : string - Nama pengasuh.
-no_telp : string - Nomor telepon pengasuh.
-Metode:
-mencatatKehadiranPengasuh() - Metode untuk mencatat kehadiran pengasuh.
-mencatatKehadiranAnak() - Metode untuk mencatat kehadiran anak.
-Kelas Kehadiran_Pengasuh
+### id_pengasuh : int - Identifikasi unik untuk setiap pengasuh.
+### nama : string - Nama pengasuh.
+### no_telp : string - Nomor telepon pengasuh.
+### Metode:
+### mencatatKehadiranPengasuh() - Metode untuk mencatat kehadiran pengasuh.
+### mencatatKehadiranAnak() - Metode untuk mencatat kehadiran anak.
 
+## Kelas Kehadiran_Pengasuh
 Atribut:
-id_kehadiran_pengasuh : int - Identifikasi unik untuk setiap catatan kehadiran pengasuh.
-id_staff : int - Identifikasi staff yang mencatat.
-id_pengasuh : int - Identifikasi pengasuh.
-tanggal : date - Tanggal kehadiran.
-waktu_masuk : time - Waktu masuk pengasuh.
-waktu_keluar : time - Waktu keluar pengasuh.
-deskripsi : string - Deskripsi tambahan.
-Kelas Kehadiran_Staff
+### id_kehadiran_pengasuh : int - Identifikasi unik untuk setiap catatan kehadiran pengasuh.
+### id_staff : int - Identifikasi staff yang mencatat.
+### id_pengasuh : int - Identifikasi pengasuh.
+### tanggal : date - Tanggal kehadiran.
+### waktu_masuk : time - Waktu masuk pengasuh.
+### waktu_keluar : time - Waktu keluar pengasuh.
+### deskripsi : string - Deskripsi tambahan.
 
+## Kelas Kehadiran_Staff
 Atribut:
-id_kehadiran_staff : int - Identifikasi unik untuk setiap catatan kehadiran staff.
-id_staff : int - Identifikasi staff.
-tanggal : date - Tanggal kehadiran.
-waktu_masuk : time - Waktu masuk staff.
-waktu_keluar : time - Waktu keluar staff.
-deskripsi : string - Deskripsi tambahan.
-Kelas Kehadiran_Anak
+### id_kehadiran_staff : int - Identifikasi unik untuk setiap catatan kehadiran staff.
+### id_staff : int - Identifikasi staff.
+### tanggal : date - Tanggal kehadiran.
+### waktu_masuk : time - Waktu masuk staff.
+### waktu_keluar : time - Waktu keluar staff.
+### deskripsi : string - Deskripsi tambahan.
 
+## Kelas Kehadiran_Anak
 Atribut:
-id_kehadiran_anak : int - Identifikasi unik untuk setiap catatan kehadiran anak.
-id_anak : int - Identifikasi anak.
-id_pengasuh : int - Identifikasi pengasuh yang mencatat.
-tanggal : date - Tanggal kehadiran.
-waktu_masuk : time - Waktu masuk anak.
-waktu_keluar : time - Waktu keluar anak.
-deskripsi : string - Deskripsi tambahan.
-Kelas Pembayaran
+### id_kehadiran_anak : int - Identifikasi unik untuk setiap catatan kehadiran anak.
+### id_anak : int - Identifikasi anak.
+### id_pengasuh : int - Identifikasi pengasuh yang mencatat.
+### tanggal : date - Tanggal kehadiran.
+### waktu_masuk : time - Waktu masuk anak.
+### waktu_keluar : time - Waktu keluar anak.
+### deskripsi : string - Deskripsi tambahan.
 
+## Kelas Pembayaran
 Atribut:
-id_pembayaran : int - Identifikasi unik untuk setiap pembayaran.
-id_orangtua : int - Identifikasi orang tua yang melakukan pembayaran.
-id_staff : int - Identifikasi staff yang memproses pembayaran.
-tanggal : date - Tanggal pembayaran.
-Metode_Pembayaran : string - Metode pembayaran yang digunakan.
-Kelas Laporan
+### id_pembayaran : int - Identifikasi unik untuk setiap pembayaran.
+### id_orangtua : int - Identifikasi orang tua yang melakukan pembayaran.
+### id_staff : int - Identifikasi staff yang memproses pembayaran.
+### tanggal : date - Tanggal pembayaran.
+### Metode_Pembayaran : string - Metode pembayaran yang digunakan.
 
+## Kelas Laporan
 Atribut:
-id_laporan : int - Identifikasi unik untuk setiap laporan.
-id_pengasuh : int - Identifikasi pengasuh yang membuat laporan.
-id_kehadiran_anak : int - Identifikasi catatan kehadiran anak yang dilaporkan.
-id_anak : int - Identifikasi anak yang dilaporkan.
-Tanggal : date - Tanggal laporan.
-deskripsi : string - Deskripsi laporan.
-Hubungan Antar Kelas
-Staff memiliki hubungan dengan Kehadiran_Pengasuh (1 staff dapat mencatat banyak kehadiran pengasuh).
-Staff memiliki hubungan dengan Kehadiran_Staff (1 staff dapat mencatat banyak kehadiran staff).
-Staff memiliki hubungan dengan Pembayaran (1 staff dapat memproses banyak pembayaran).
-Pembayaran memiliki hubungan dengan Orang_Tua (1 pembayaran dilakukan oleh satu orang tua).
-Orang_Tua memiliki hubungan dengan Anak (1 orang tua dapat memiliki banyak anak).
-Pengasuh memiliki hubungan dengan Kehadiran_Pengasuh (1 pengasuh dapat memiliki banyak catatan kehadiran pengasuh).
-Pengasuh memiliki hubungan dengan Kehadiran_Anak (1 pengasuh dapat mencatat banyak kehadiran anak).
-Laporan memiliki hubungan dengan Orang_Tua (1 laporan dapat didapatkan oleh banyak orang tua).
+### id_laporan : int - Identifikasi unik untuk setiap laporan.
+### id_pengasuh : int - Identifikasi pengasuh yang membuat laporan.
+### id_kehadiran_anak : int - Identifikasi catatan kehadiran anak yang dilaporkan.
+### id_anak : int - Identifikasi anak yang dilaporkan.
+### Tanggal : date - Tanggal laporan.
+### deskripsi : string - Deskripsi laporan.
+### Hubungan Antar Kelas
+### Staff memiliki hubungan dengan Kehadiran_Pengasuh (1 staff dapat mencatat banyak kehadiran pengasuh).
+### Staff memiliki hubungan dengan Kehadiran_Staff (1 staff dapat mencatat banyak kehadiran staff).
+### Staff memiliki hubungan dengan Pembayaran (1 staff dapat memproses banyak pembayaran).
+### Pembayaran memiliki hubungan dengan Orang_Tua (1 pembayaran dilakukan oleh satu orang tua).
+### Orang_Tua memiliki hubungan dengan Anak (1 orang tua dapat memiliki banyak anak).
+### Pengasuh memiliki hubungan dengan Kehadiran_Pengasuh (1 pengasuh dapat memiliki banyak catatan kehadiran pengasuh).
+### Pengasuh memiliki hubungan dengan Kehadiran_Anak (1 pengasuh dapat mencatat banyak kehadiran anak).
+### Laporan memiliki hubungan dengan Orang_Tua (1 laporan dapat didapatkan oleh banyak orang tua).
 
